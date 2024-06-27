@@ -43,15 +43,17 @@ console.log ("4. Cancelar uma consulta")
                                         consultas.push(novaConsulta)
                                         console.log("MENU// DIGITE UM OPÇÃO")
                                         opcao = "";
+                                        
                                     } 
                              
-                               }); break;
+                               }); ;break
                            
                         case 2:
                             console.log ("LISTAR COSULTAS")
                             console.log (consultas)
                             console.log("MENU// DIGITE UM OPÇÃO")
-                            opcao = "";
+                             opcao = "";
+                            
                             break;
                         
                         case 3:
