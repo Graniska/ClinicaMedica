@@ -1,7 +1,7 @@
 
 
 console.log ("=============GERENCIAMENTO DE CONSULTAS================")
-console.log ("DIGITE:")
+console.log ("MENU// DIGITE UM OPÇÃO")
 console.log ("1. Adicionar uma nova consulta")
 console.log ("2.Listar todas as consultas")
 console.log("3.Atualizar uma consulta existente")
@@ -41,13 +41,20 @@ console.log ("4. Cancelar uma consulta")
                                     } else if (!novaConsulta.hora) {
                                         novaConsulta.hora = input
                                         consultas.push(novaConsulta)
-                                        console.log (consultas)
-                                    }
+                                        console.log("MENU// DIGITE UM OPÇÃO")
+                                        opcao = "";
+                                    } 
                              
                                }); break;
                            
                         case 2:
-                            console.log ("Ai meu deu funcionou mesmo")
+                            console.log ("LISTAR COSULTAS")
+                            console.log (consultas)
+                            console.log("MENU// DIGITE UM OPÇÃO")
+                            opcao = "";
+                            break;
+                        
+                        case 3:
                     
                         default:
                             break;
